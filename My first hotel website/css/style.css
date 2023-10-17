@@ -1,0 +1,212 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&family=Raleway:wght@100;200;300&family=Roboto&family=Roboto+Mono:ital,wght@0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p { 
+    margin: 10px 0;
+}
+
+ #navbar .container{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    background: #333;
+    color: #fff;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.l-heading {
+   font-size: 60px;
+   line-height: 1.2em;
+}
+
+.m-heading {
+    font-size: 30px;
+    line-height: 1.2em;
+}
+
+.bg-light {
+background: #f4f4f4;
+color: #333;
+}
+
+.bg-dark {
+background: #333;
+color: #fff;
+}
+
+.bg-primary {
+    background:#f7c08a;
+    color: #333;
+}
+
+
+.btn {
+    background: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 0.35rem 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #444;
+    color: #f7c08a;
+    cursor: pointer;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover,
+#navbar ul li .current  {
+    background: #444;
+    color: #f7c08a;
+}
+
+#showcase {
+    background: url(../img/room.jpg) no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding: 10rem;
+}
+
+#home-info {
+    display: flex;
+    flex-direction: row;
+   }
+
+   #home-info div {
+    flex: 1;
+   }
+
+#home-info .info-img {
+    background: url("../img/hotel-1.jpg") no-repeat center center/cover;
+    color: #333;
+}
+
+#home-info .info-content{
+text-align: center;
+line-height: 1.5em;
+padding: 1rem;
+}
+
+#first-pg-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    text-align: center;
+    padding: 1rem;
+}
+
+.box i {
+    padding: 0.75rem;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+}
+ 
+#about div {
+    flex: 1;
+}
+
+#about .about-info {
+    text-align: justify;
+    padding: 15px 25px;
+}
+
+#about .about-img {
+    background: url("../img/big_lobby.jpg")no-repeat center center/cover;
+    border-radius: 70%;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+#testimonials .testimonials{
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+}
+
+img {
+    flex: 1;
+    margin-top: 30px;
+}
+
+#testimonials .container{
+    background: url("../img/pool.jpg") no-repeat center center/cover;
+}
+
+#testimonials .container img {
+    background: url("../img/person1.jpg") no-repeat center center/cover;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+#testimonials .container h2 {
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin: 0.75rem;
+}
+
+#testimonials .container .testimonials {
+    padding: 1rem;
+    margin: 0 40px;
+}
+
+#testimonials .container .testimonials img {
+    margin-top: 20px;
+}
+
+#main-footer{
+background: #444;
+color: #fff;
+padding: 0.50rem;
+text-align: center;
+}
