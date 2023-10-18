@@ -204,6 +204,33 @@ img {
     margin-top: 20px;
 }
 
+#contact-form {
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+
+#contact-form .form-group input,
+ #contact-form .form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+
+}
+
+#contact-info .box {
+    flex: 1;
+}
+
 #main-footer{
 background: #444;
 color: #fff;
