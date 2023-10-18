@@ -166,26 +166,13 @@ padding: 1rem;
 }
 
 
-#testimonials .testimonials{
-    display: flex;
-    flex-direction: column;
+#testimonials .testimonials {
     opacity: 0.8;
-}
-
-img {
-    flex: 1;
-    margin-top: 30px;
+    border-radius: 5px;
 }
 
 #testimonials .container{
     background: url("../img/pool.jpg") no-repeat center center/cover;
-}
-
-#testimonials .container img {
-    background: url("../img/person1.jpg") no-repeat center center/cover;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
 }
 
 #testimonials .container h2 {
@@ -195,14 +182,18 @@ img {
     margin: 0.75rem;
 }
 
+#testimonials .container img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+
 #testimonials .container .testimonials {
-    padding: 1rem;
     margin: 0 40px;
 }
 
-#testimonials .container .testimonials img {
-    margin-top: 20px;
-}
 
 #contact-form {
     padding: 1rem 2rem;
