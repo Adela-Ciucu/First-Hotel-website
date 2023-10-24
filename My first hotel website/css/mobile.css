@@ -1,0 +1,51 @@
+.logo {
+    font-size: 17px;
+}
+
+#navbar a{
+    font-size: 13px;
+}
+
+.l-heading {
+    font-size: 25px;
+    line-height: 1.4em;
+ }
+
+ .m-heading {
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding: 4.3rem;
+}
+
+#showcase {
+    height: 400px;
+}
+
+#home-info .info-img {
+    display: none;
+}
+
+ #first-pg-info {
+    display: flex;
+     flex-direction: column;
+    justify-content: space-between;
+    
+} 
+
+#about .about-img {
+    display: none;
+}
+
+#testimonials .container h2 {
+    padding: 1rem;
+}
+
+#contact-info  {
+    display: flex;
+    flex-direction: column;
+}

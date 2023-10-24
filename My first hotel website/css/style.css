@@ -162,17 +162,12 @@ padding: 1rem;
     background: url("../img/big_lobby.jpg")no-repeat center center/cover;
     border-radius: 70%;
     padding: 20px;
-    margin: 10px;
-}
-
-
-#testimonials .testimonials {
-    opacity: 0.8;
-    border-radius: 5px;
+    margin: 30px;
 }
 
 #testimonials .container{
     background: url("../img/pool.jpg") no-repeat center center/cover;
+    padding: 10px;
 }
 
 #testimonials .container h2 {
@@ -182,18 +177,19 @@ padding: 1rem;
     margin: 0.75rem;
 }
 
+#testimonials .testimonials {
+    opacity: 0.8;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin:20px 40px;
+}
+
 #testimonials .container img {
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    margin: 10px;
+    margin-top: 10px;
 }
-
-
-#testimonials .container .testimonials {
-    margin: 0 40px;
-}
-
 
 #contact-form {
     padding: 1rem 2rem;
@@ -223,8 +219,8 @@ padding: 1rem;
 }
 
 #main-footer{
-background: #444;
-color: #fff;
-padding: 0.50rem;
-text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 0.40rem;
+    text-align: center;
 }

@@ -1,0 +1,17 @@
+#about {
+    display: flex;
+    flex-direction: row;
+}
+
+#about div {
+    flex: 1;
+}
+
+#about .about-info {
+    margin: 30px;
+}
+
+#about .about-img {
+    padding: 10rem;
+    margin:1rem 3rem;
+}
