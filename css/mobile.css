@@ -2,16 +2,16 @@
     font-size: 17px;
 }
 
-#navbar a{
+#navbar a {
     font-size: 13px;
 }
 
 .l-heading {
     font-size: 25px;
     line-height: 1.4em;
- }
+}
 
- .m-heading {
+.m-heading {
     font-size: 20px;
     line-height: 1.4em;
 }
@@ -30,12 +30,11 @@
     display: none;
 }
 
- #first-pg-info {
+#first-pg-info {
     display: flex;
-     flex-direction: column;
+    flex-direction: column;
     justify-content: space-between;
-    
-} 
+}
 
 #about .about-img {
     display: none;
@@ -45,7 +44,7 @@
     padding: 1rem;
 }
 
-#contact-info  {
+#contact-info {
     display: flex;
     flex-direction: column;
 }
