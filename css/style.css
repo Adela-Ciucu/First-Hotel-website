@@ -16,19 +16,25 @@
  }
 
  p {
-     margin: 10px 0;
+     margin: 15px 0;
+ }
+
+ #navbar {
+     position: sticky;
+     top: 0;
  }
 
  #navbar .container {
      display: flex;
      flex-direction: row;
-     position: sticky;
-     top: 0;
      background: #333;
      color: #fff;
      justify-content: space-between;
-     z-index: 1;
      padding: 1rem;
+ }
+
+ #navbar .logo a {
+    color: #fff;
  }
 
  .text-primary {
@@ -178,6 +184,7 @@
  }
 
  #testimonials .testimonials {
+     display: flex;
      opacity: 0.8;
      border-radius: 5px;
      padding: 0.5rem;
@@ -189,6 +196,7 @@
      height: 50px;
      width: 50px;
      margin-top: 10px;
+     margin-right: 10px;
  }
 
  #contact-form {
